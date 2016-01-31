@@ -3,7 +3,7 @@ Bash script that performs generic banner grabbing, multiple ports per host
 
 
 ## Features
-* Performs generic banner grabbing
+* Performs generic banner grabbing on any TCP port
 * Uses protocol-appropriate tools to dissect banners on well-known ports
 * Looks up canonical service names for well-known ports
 * Scans multiple ports during the same run
