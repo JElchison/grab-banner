@@ -82,7 +82,7 @@ for PORT in "$@"; do
         443)
             curl -k -s -v -D - https://$SERVER > /dev/null
             ;;
-        993|995)
+        465|563|636|695|898|989|990|992|993|994|995)
             sleep 3 | openssl s_client -connect $SERVER:$PORT
             ;;
         *)
