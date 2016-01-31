@@ -1,5 +1,5 @@
 # grab-banner
-Bash script that performs generic banner grabbing, multiple ports per host
+Bash script that performs generic banner grabbing, multiple ports per script run
 
 
 ## Features
