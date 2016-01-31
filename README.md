@@ -109,3 +109,7 @@ X-Frame-Options: SAMEORIGIN
 { [data not shown]
 * Connection #0 to host google.com left intact
 ```
+
+## Limitations
+
+* Scans TCP ports only
