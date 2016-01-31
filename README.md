@@ -7,6 +7,7 @@ Bash script that performs generic banner grabbing, multiple ports per script run
 * Uses protocol-appropriate tools to dissect banners on well-known ports
 * Looks up canonical service names for well-known ports
 * Scans multiple ports during the same run
+* DNS resolution performed by underlying services
 * Runs on any OS having a Bash environment
 
 
