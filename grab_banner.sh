@@ -77,16 +77,16 @@ for PORT in "$@"; do
     echo "[*] =====================================================" >&2
     case $PORT in
         80)
-            curl -s -D - -o /dev/null http://$SERVER
+            curl -s -D - -o /dev/null "http://$SERVER"
             ;;
         443)
-            curl -k -s -v -D - https://$SERVER > /dev/null
+            curl -k -s -v -D - "https://$SERVER" > /dev/null
             ;;
         465|563|587|636|695|898|989|990|992|993|994|995)
-            sleep 3 | openssl s_client -connect $SERVER:$PORT
+            sleep 3 | openssl s_client -connect "$SERVER:$PORT"
             ;;
         *)
-            nc -q 0 -w 2 $SERVER $PORT
+            nc -q 0 -w 2 "$SERVER" "$PORT"
             ;;
     esac
     echo >&2
