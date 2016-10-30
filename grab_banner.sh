@@ -4,7 +4,7 @@
 #
 # Bash script that performs generic banner grabbing, multiple ports per host
 #
-# Version 1.0.0
+# Version 1.0.1
 #
 # Copyright (C) 2016 Jonathan Elchison <JElchison@gmail.com>
 
